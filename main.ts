@@ -15,3 +15,5 @@ for (let index = 0; index < 2; index++) {
     motors.largeBC.tank(20, 20, 20, MoveUnit.Seconds)
     motors.stopAll()
 }
+motors.largeCD.tank(77, 77, 25, MoveUnit.Seconds)
+motors.largeBC(50, 50, 1, MoveUnit.Rotations)
