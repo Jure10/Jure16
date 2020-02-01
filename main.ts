@@ -9,3 +9,9 @@ for (let index = 0; index < 2; index++) {
     motors.largeA.run(50, 1, MoveUnit.Rotations)
     motors.largeBC.tank(30, 30, 15, MoveUnit.Seconds)
 }
+motors.largeD.run(40, 10, MoveUnit.Seconds)
+for (let index = 0; index < 2; index++) {
+    motors.largeBC.tank(100, 100, 5, MoveUnit.Seconds)
+    motors.largeBC.tank(20, 20, 20, MoveUnit.Seconds)
+    motors.stopAll()
+}
